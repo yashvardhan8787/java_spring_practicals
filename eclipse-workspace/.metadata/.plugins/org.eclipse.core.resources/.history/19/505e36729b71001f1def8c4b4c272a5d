@@ -1,0 +1,11 @@
+package com.score.standalone.collection;
+
+import java.util.List;
+
+public class Employee {
+	
+	private List<String> ename;
+
+
+
+}

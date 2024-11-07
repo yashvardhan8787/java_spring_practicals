@@ -1,0 +1,37 @@
+package com.score.stereotpye;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Student {
+
+	private String sname;
+	private String address;
+	public String getSname() {
+		return sname;
+	}
+	public void setSname(String sname) {
+		this.sname = sname;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public Student() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Student(String sname, String address) {
+		super();
+		this.sname = sname;
+		this.address = address;
+	}
+	@Override
+	public String toString() {
+		return "Student [sname=" + sname + ", address=" + address + "]";
+	}
+	
+	
+}
